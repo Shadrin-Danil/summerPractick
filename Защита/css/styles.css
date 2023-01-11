@@ -1,0 +1,183 @@
+
+/* ---------------------------------------------------------------------------- */
+/* -----------------------------------catalog_container------------------------ */
+/* ---------------------------------------------------------------------------- */
+
+.catalog_container {
+    display: flex;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: auto;
+    min-width: 1920px;
+
+    margin-top: 5%;
+    
+}
+
+/* правый блок */
+
+.catalog_right {
+    background: url(../images/phon.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 45%;
+}
+
+.catalog_right_text {
+    text-align: center;
+    width: auto;
+    /* padding-left: 26%; */
+    margin-top: 50%;
+    margin-right: 5%;
+
+    color: white;
+    font-size: 36px;
+    font-family: 'Playfair Display';
+}
+
+.catalog_right_line {
+    border-top: 1px solid white;
+    text-align: center;
+
+
+    margin-top: 5%;
+    margin-left: 41.5%;
+    mask-repeat: auto;
+    margin-right: 10%;
+
+
+    width: 10%;
+
+}
+
+.catalog_right_text2 {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    
+    width: 15%;
+    text-align: center;
+    margin-top: 5%; 
+    margin-left: 39%;
+    margin-right: 49.5%;
+    margin-bottom: 10%;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+
+    border: 2px solid white;
+    /* padding-left: 50%; */
+
+    
+}
+
+/* Левый блок */
+
+.catalog_left {
+    background: #000;
+    text-align: center;
+    width: 55%;
+}
+
+.catalog_left_h2 {
+    font-family: 'Playfair Display';
+    margin-top: 5%;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.catalog_left_line {
+    border-top: 1px solid white;
+    margin-top: 5%;
+    margin-left: 43%;
+    width: 15%;
+}
+
+.catalog_left_boxes {
+    margin-top: 5%;
+    /* margin-bottom: 5%; */
+    /* margin-left: 80px; */
+    padding-left: 7%;
+    margin-right: auto;
+    display: flex;
+    text-align: center;
+
+
+    width: 100%;
+}
+
+.catalog_left_block1 {
+    background-color: #191B1C;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 4%;
+
+    /* margin-left: %; */
+}
+
+.catalog_left_block2 {
+    background-color: #191B1C;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 4%;
+
+    margin-left: 5.5%;
+}
+
+.catalog_left_block3 {
+    background-color: #191B1C;
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 4%;
+    
+    margin-left: 5.5%;
+    margin-right: auto;
+}
+
+.catalog_left_bottom_text {
+    display: flex;
+    text-align: center;
+    margin-top: auto;
+}
+
+.catalog_left_bottom_text_all {
+    width: 140px;
+    height: 24px;
+
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    line-height: 21px;
+
+    color: white;
+}
+
+.catalog_left_bottom_price {
+    display: flex;
+    text-align: center;
+    /* padding-bottom: 1%; */
+}
+
+.catalog_left_bottom_price_all {
+    width: 92px;
+    height: 21px;
+
+    font-family: 'Playfair Display';
+    font-size: 16px;
+    line-height: 19px;
+
+    margin-bottom: 6%;
+
+    color: #D0D0D0;
+
+}
